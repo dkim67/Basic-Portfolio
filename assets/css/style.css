@@ -4,7 +4,6 @@ header
         background-color: white;
         border-bottom: solid thick black;
         
-
     }
 
 
@@ -20,7 +19,7 @@ h1
     {
         background-color: #4aaaa5;
         color: white;
-        width: 187px;
+        width: auto;
         padding: 10px;
         font-family:Georgia, Times, Times New Roman, serif;
         margin-left: 232px;
@@ -32,14 +31,19 @@ h2
         color: #4aaaa5;
         font-family: Georgia, Times, Times New Roman, serif;
         margin-top: 60px;
-       
         
+       
     }
+
+.line {
+    border-left: solid thick black;
+}
 
 .container
     {
         width: 960px;
         margin: 0 auto;
+        margin-bottom: 33px;
     }
 h1, h3
     {
@@ -69,6 +73,8 @@ footer
         padding: 30px;
         margin-bottom: 0;
         border-top: solid thick black;
+        position: fixed;
+        width: 100%;
     }
 
 

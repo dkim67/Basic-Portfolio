@@ -3,6 +3,7 @@ header
     {
         background-color: white;
         border-bottom: solid thick black;
+        
 
     }
 
@@ -70,16 +71,76 @@ footer
         border-top: solid thick black;
     }
 
+
+ #cat
+    {
+        width: 250px;
+        background-color: teal;
+        color: white;
+        text-align: center;
+        position: absolute;
+        bottom: 400px;
+       
+    }
+
+#sky-game
+    {
+        width: 250px;
+        background-color: teal;
+        color: white;
+        text-align: center;
+        position: absolute;
+        right: 660px;
+        bottom: 400px;
+    }
+
+#wiz-tab
+    {
+        width: 250px;
+        background-color: teal;
+        color: white;
+        text-align: center;
+        position: absolute;
+        right: 390px;
+        bottom: 400px;
+    }
+
+#lamp
+    {
+        width: 250px;
+        background-color: teal;
+        color: white;
+        text-align: center;
+        position: absolute;
+       bottom: 190px;
+    }
+
+#nature
+    {
+        width: 250px;
+        background-color: teal;
+        color: white;
+        text-align: center;
+        position: absolute;
+        right: 660px;
+        bottom: 190px;
+    }
 .bio
     {
         background: white;
     }
 
 
-
 .text
     {
         font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    
+    }
+
+.picMargin
+    {
+        margin-left: 20px;
+        padding-bottom: 20px;
     }
 
 .clearfix::after 
@@ -88,3 +149,32 @@ footer
         display: block;
         clear: both;
     }
+
+#pic1
+    {
+        float: left;
+       
+    }
+
+#pic2
+    {
+        float: left;
+      
+    }
+
+#pic3
+    {
+        float: left;
+    }
+
+#pic4
+    {
+        float: left;
+    }
+
+#pic5
+    {
+        float: left;
+    }
+
+
